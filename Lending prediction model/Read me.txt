@@ -1,0 +1,32 @@
+	For this project,I am exploring real-world data available from LendingClub.com.Lending Club connects people who need money
+with investors.Hopefully,as an investor you would want to invest in people who showed a profile of having a high probability of paying you back.
+I have attemted to create a model that will help predict this.
+	Here are what the columns represent:
+
+	
+
+	1.Credit.policy: 1 if the customer meets the credit underwriting criteria(worth lending to) and 0 otherwise.
+
+	2.purpose      :The purose of the loan
+	
+	3.int.rate     : The interest rate of the loan.The higher the rate, the higher the risk of default
+
+	4.installment  :The monthly installments to be applied.
+
+	5.log.annual inc : The natural log of the self-reported annual income of the borrower
+
+	6.dti           :The debt toincome ratioof the borrower.(amount of debt divided by annual income)
+
+	7.fico        :The FICO credit score of the borrower
+
+	8.days.with.cr.line: The nu,ber of days the borrower has had a credit line
+
+	9.revol.bal   : The borrower's revolving balance(amount unpaid at the end of credit card billing cycle)
+
+	10.revol.util  : The borrower;s revolving line utilization rate(the amount of the credit line used relative to total 			credit available)	
+
+	11.inq.last.6mths :The borrower's number of inquiries by creditors in the last 6 months.
+
+	12.delinq.2yrs : The number of times the borrower had been 30 + days past due on a payment in the past 2 years.
+
+	13.pub.rec    : The borrower's numbe of derogatory public records(bankruptcy filings,tax liens,or judgments). 
